@@ -38,7 +38,7 @@ export default async function CourseDetailsPage({ params }: { params: Promise<{ 
                 <div className="inline-flex items-center gap-2 rounded-full border border-purple-500/20 bg-purple-500/10 px-4 py-2 text-sm uppercase tracking-[0.25em] text-purple-300">
                   {course.tag}
                 </div>
-                <h1 className="mt-6 text-4xl font-semibold tracking-tight sm:text-5xl">
+                <h1 className="mt-6 text-4xl font-semibold tracking-tight sm:text-5xl font-[Syne]">
                   {course.title}
                 </h1>
                 <p className="mt-4 max-w-3xl text-gray-300 leading-relaxed">{course.subtitle}</p>

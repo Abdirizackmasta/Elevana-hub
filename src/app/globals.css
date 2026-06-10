@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-syne);
+}
 :root {
   --purple-deep: #1a0a2e;
   --purple-dark: #2d0f5e;
@@ -20,5 +28,5 @@
 body {
   background: var(--bg-dark);
   color: var(--text);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans) sans-serif;
 }

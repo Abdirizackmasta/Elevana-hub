@@ -46,7 +46,7 @@ export default function Features() {
           Why ElevenaHub
         </p>
 
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mt-3">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mt-3 ">
           Built for the{" "}
           <span className="text-gray-400">modern</span>
           <br />

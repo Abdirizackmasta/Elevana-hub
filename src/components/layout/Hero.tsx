@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section className="relative overflow-hidden pt-28 pb-20">
@@ -51,9 +53,9 @@ export default function Hero() {
 
           {/* buttons */}
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
-            <button className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-600 to-purple-400 font-semibold shadow-lg shadow-purple-600/30 hover:scale-105 transition">
+            <Link href="/courses" className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-600 to-purple-400 font-semibold shadow-lg shadow-purple-600/30 hover:scale-105 transition">
               Explore Courses
-            </button>
+            </Link>
 
             <button className="px-6 py-3 rounded-xl border border-white/10 text-gray-300 hover:text-white hover:bg-white/5 transition">
               ▶ Watch Demo

@@ -23,7 +23,7 @@ export default function ContactPage() {
             Get in Touch
           </div>
 
-          <h1 className="text-[clamp(36px,4vw,62px)] font-extrabold tracking-[-2px] font-[Syne]">
+          <h1 className="text-[clamp(36px,4vw,62px)] font-extrabold tracking-[-2px]">
             We'd love to{" "}
             <span className="bg-gradient-to-r from-[#9d4edd] to-[#c084fc] bg-clip-text text-transparent">
               hear from you
@@ -44,7 +44,7 @@ export default function ContactPage() {
           onSubmit={handleSubmit}
           className="bg-[rgba(109,33,232,0.08)] border border-[rgba(155,80,240,0.2)] rounded-[24px] p-[48px]"
         >
-          <h2 className="text-[26px] font-bold font-[Syne] mb-8">
+          <h2 className="text-[26px] font-bold mb-8">
             Send us a message
           </h2>
 
