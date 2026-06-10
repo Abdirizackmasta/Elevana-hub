@@ -1,13 +1,17 @@
 @import "tailwindcss";
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-syne);
+/* =========================
+   Layout Safety
+========================= */
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
 }
+
+/* =========================
+   Design Tokens
+========================= */
 :root {
   --purple-deep: #1a0a2e;
   --purple-dark: #2d0f5e;
@@ -18,15 +22,40 @@ h6 {
   --purple-glow: #a855f7;
 
   --bg-dark: #0a0412;
-  --bg-card: rgba(109,33,232,0.08);
-  --border: rgba(155,80,240,0.2);
+  --bg-card: rgba(109, 33, 232, 0.08);
+  --border: rgba(155, 80, 240, 0.2);
 
   --text: #ffffff;
   --text-muted: #b8a0d4;
 }
 
+/* =========================
+   Base Styles
+========================= */
 body {
   background: var(--bg-dark);
   color: var(--text);
-  font-family: var(--font-dm-sans) sans-serif;
+  font-family: var(--font-dm-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =========================
+   Typography System
+========================= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-syne), sans-serif;
+}
+
+/* =========================
+   Selection Styling
+========================= */
+::selection {
+  background: rgba(168, 85, 247, 0.3);
+  color: white;
 }

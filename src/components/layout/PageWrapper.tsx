@@ -11,8 +11,7 @@ export default function PageWrapper({
   return (
     <div
       className={clsx(
-        "min-h-screen bg-[#0a0412] text-white antialiased",
-        "selection:bg-purple-500/30 selection:text-white",
+        "mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10",
         className
       )}
     >

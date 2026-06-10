@@ -1,7 +1,7 @@
 import Navbar from "@/components/layout/Nav";
 import PageWrapper from "@/components/layout/PageWrapper";
-import "./globals.css";
 import Footer from "@/components/layout/Footer";
+import "./globals.css";
 import { Syne, DM_Sans } from "next/font/google";
 
 const syne = Syne({
@@ -23,12 +23,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${syne.variable} ${dmSans.variable}`}>
-        <PageWrapper>
-          <Navbar />
-          <main className="pt-20">{children}</main>
-          <Footer />
-        </PageWrapper>
+      <body
+        className={`
+          ${syne.variable} 
+          ${dmSans.variable} 
+          bg-[#0a0412] 
+          text-white 
+          overflow-x-hidden
+        `}
+      >
+        <Navbar />
+
+        <main className="pt-20 min-h-screen w-full">
+          <PageWrapper>
+            {children}
+          </PageWrapper>
+        </main>
+
+        <Footer />
       </body>
     </html>
   );
