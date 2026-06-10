@@ -37,12 +37,12 @@ export default function ContactPage() {
       </div>
 
       {/* CONTENT */}
-      <div className="max-w-[1200px] mx-auto px-6 pb-[80px] grid grid-cols-1 lg:grid-cols-2 gap-[60px]">
+      <div className="max-w-[1200px] mx-auto px-4 pb-[80px] grid grid-cols-1 lg:grid-cols-2 gap-[60px]">
         
         {/* FORM */}
         <form
           onSubmit={handleSubmit}
-          className="bg-[rgba(109,33,232,0.08)] border border-[rgba(155,80,240,0.2)] rounded-[24px] p-[48px]"
+          className="bg-[rgba(109,33,232,0.08)] border border-[rgba(155,80,240,0.2)] rounded-[24px] p-8"
         >
           <h2 className="text-[26px] font-bold mb-8">
             Send us a message

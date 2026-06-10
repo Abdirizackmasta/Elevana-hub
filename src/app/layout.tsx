@@ -9,7 +9,10 @@ const syne = Syne({
   weight: ["400", "600", "700", "800"],
   variable: "--font-syne",
 });
-
+export const metadata = {
+  title: "Elevana | Learn. Build. Grow.",
+  description: "Modern learning platform for developers",
+};
 const dmSans = DM_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "500"],

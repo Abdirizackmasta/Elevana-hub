@@ -69,7 +69,7 @@ export default function CoursesPage() {
       </div>
 
       {/* GRID */}
-      <div className="max-w-6xl mx-auto px-6 mt-16 grid md:grid-cols-3 gap-6 pb-24">
+      <div className="max-w-6xl mx-auto px-4 mt-16 grid md:grid-cols-3 gap-6 pb-24">
 
         {filteredCourses.length > 0 ? (
           filteredCourses.map((course) => (
